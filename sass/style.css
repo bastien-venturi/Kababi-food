@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("/public/images/slider/img_bg_slider_home01.jpg");
+  max-width: 100%;
+}
+
+.category, footer, .our-chefs {
+  background-image: url("/public/images/banner/imgbgcategory.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.about-us {
+  max-width: 100%;
+}
+
+.our-menu {
+  background-color: #faf6f0;
+}
+
+.our-chefs {
+  background-image: url("/public/images/our-chefs/imgbg-ourchefs.jpg");
+}
+
+footer {
+  background-image: url("/public/images/footer/img-ng-footer.jpg");
+}/*# sourceMappingURL=style.css.map */
