@@ -1,0 +1,57 @@
+@import '../abstract/variables';
+
+nav {
+	background: transparent;
+	padding-top: 0.5em;
+	width: 100%;
+	height: 2em;
+	display: grid;
+	grid-template-columns: 0.8fr 2fr 1fr;
+	justify-content: space-evenly;
+
+	img {
+		height: 1.5em;
+		margin-left: 1em;
+	}
+
+	li {
+		display: inline;
+		margin: 1rem;
+	}
+
+	a {
+		text-decoration: none;
+		color: $_white;
+
+		&:hover{
+			color: $_cream-hover-color;
+
+		}
+	}
+	
+	select {
+		background: transparent;
+		color: $_white;
+		border: none;
+		padding: 0.5em;
+		text-align: center;
+
+		&:hover{
+			color: $_cream-hover-color;
+		}
+	}
+
+	.reservation {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+
+		img{
+			width: 1em;
+			height: 1em;
+			margin-right: 0.2em;
+		}
+	}
+
+	
+}
