@@ -4,6 +4,10 @@
 }
 
 header {
+  color: white;
+}
+
+header {
   background-image: url("/public/images/slider/img_bg_slider_home01.jpg");
   max-width: 100%;
 }
@@ -40,4 +44,9 @@ footer {
 .btn-primary #tranparent {
   opacity: 0.01;
   color: white;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+* {
+  font-family: "forum", cursive;
 }/*# sourceMappingURL=style.css.map */
