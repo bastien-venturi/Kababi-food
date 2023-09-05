@@ -28,4 +28,16 @@ header {
 
 footer {
   background-image: url("/public/images/footer/img-ng-footer.jpg");
+}
+
+.btn-primary {
+  color: black;
+  width: 9em;
+  height: 2em;
+  background-color: white;
+  border-color: lightgray;
+}
+.btn-primary #tranparent {
+  opacity: 0.01;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
