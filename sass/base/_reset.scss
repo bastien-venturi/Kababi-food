@@ -1,8 +1,11 @@
+@import '../abstract/variables';
+
 *{
   margin: 0;
   padding: 0;
 }
 
 header{
-  color: white;
+  color: $_white;
 }
+
