@@ -1,3 +1,9 @@
+@import '../abstract/variables';
+
 * {
-	font-family: 'forum', cursive;
+	font-family: $_font-body;
+}
+
+button {
+	font-family: $_font-button;
 }
