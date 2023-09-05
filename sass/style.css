@@ -4,6 +4,10 @@
 }
 
 header {
+  color: white;
+}
+
+header {
   background-image: url("/public/images/slider/img_bg_slider_home01.jpg");
   max-width: 100%;
 }
@@ -28,4 +32,4 @@ header {
 
 footer {
   background-image: url("/public/images/footer/img-ng-footer.jpg");
-}/*# sourceMappingURL=style.'css.map */
+}/*# sourceMappingURL=style.css.map */

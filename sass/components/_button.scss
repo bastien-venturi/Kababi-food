@@ -1,0 +1,15 @@
+.btn-primary {
+
+	color: black;
+	width: 9em;
+	height: 2em;
+	background-color: white;
+
+	border-color: lightgray;
+
+	#tranparent{
+		opacity: .01;
+		color: white;
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
