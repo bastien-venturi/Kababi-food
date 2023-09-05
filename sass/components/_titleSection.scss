@@ -1,0 +1,34 @@
+h1
+{
+    color: white;
+}
+
+
+h2
+{
+    color: $_dark-cream-color;
+    text-transform: uppercase;
+    font-size: 100px;
+
+}
+
+.category, .about-us, .our-menu, .gallery, .our-chefs, .our-blog
+{ 
+    position: relative;
+}
+h2
+{
+    z-index: 1;
+}
+.section-header-title
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.our-chefs{
+    color: white;
+}
