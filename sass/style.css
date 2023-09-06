@@ -56,6 +56,7 @@ footer {
   font-weight: bold;
   font-size: large;
   padding: 1em 1.5em;
+  font-family: "roboto", serif;
 }
 .btn-primary:hover, .btn-primary-tranparent:hover {
   background-color: #e9b05b;
@@ -78,7 +79,6 @@ footer {
 }
 
 * {
-  font-family: url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Roboto&family=Rosarivo&family=Rubik+Iso&display=swap");
   font-family: "forum", cursive;
 }
 
@@ -134,10 +134,14 @@ header .body-header .play div {
 }
 
 main {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 1fr);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   max-width: 100%;
+}
+
+.category, .our-chefs, footer {
+  height: 60em !important;
 }
 
 h2 {
@@ -263,4 +267,19 @@ h2, .section-header-title {
   border: 2px solid black;
   border-radius: 5px;
   display: flex;
+.about-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 26em;
+  align-items: center;
+  justify-items: center;
+}
+
+#about-gallery-position {
+  position: relative;
+  top: -5em;
+}
+#about-gallery-position img {
+  border: 2em solid white;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
