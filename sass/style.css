@@ -88,34 +88,28 @@ h2 {
   text-transform: capitalize;
 }
 
-/* Article cat */
-main .category .article-cat, main .our-chefs .article-cat, main footer .article-cat {
+.article-cat {
   display: flex;
   justify-content: center;
   gap: 25px;
-  background-repeat: repeat;
   text-align: center;
   line-height: 30px;
+  transform: translatey(-80px);
 }
-
-/* Article */
-.category .article-cat article, .our-chefs .article-cat article, footer .article-cat article {
+.article-cat article {
   background-color: #fff;
   width: 140px;
-  height: 140px;
+  height: 180px;
+  text-align: center;
 }
-
-/* Paragraph */
-.article-cat article p {
-  transform: translatex(0px) translatey(25px);
-}
-
-/* Image */
 .article-cat article img {
   display: inline-block;
-  transform: translatex(0px) translatey(25px);
+  transform: translatey(40px);
   height: 30px;
   width: 30px;
+}
+.article-cat article p {
+  transform: translatey(40px);
 }
 
 nav {

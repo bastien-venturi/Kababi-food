@@ -1,33 +1,29 @@
-   /* Article cat */
-main .category .article-cat
+.article-cat
 {
     display:flex;
     justify-content:center;
     gap: 25px;
-    background-repeat:repeat;
     text-align:center;
     line-height:30px;
+    transform: translatey(-80px);
+    article
+    {
+        background-color: $_white;
+        width:140px;
+        height:180px;
+        text-align:center;
+        img
+        {
+            display:inline-block;
+            transform:translatey(40px);
+            height:30px;
+            width:30px;
+        }
+        p
+        {
+            transform: translatey(40px);
+        }
+    }
+    
 }
-   
-   /* Article */
-.category .article-cat article
-{
-    background-color: $_white;
-    width:140px;
-    height:140px;
-} 
 
-   /* Paragraph */
-.article-cat article p
-{
-    transform:translatex(0px) translatey(25px);
-}
-   
-   /* Image */
-.article-cat article img
-{
-    display:inline-block;
-    transform:translatex(0px) translatey(25px);
-    height:30px;
-    width:30px;
-}
