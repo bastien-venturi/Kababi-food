@@ -2,28 +2,23 @@
 
 nav {
 	background: transparent;
-  position: relative;
-	padding-top: 0.5em;
+	padding-top: 1em;
 	width: 100%;
 	height: 3em;
 	display: grid;
   align-items: center;
 	grid-template-columns: 0.8fr 2fr 1fr;
-	justify-content: space-evenly;
-  font-size: x-large;
+	justify-content: space-around;
+  font-size: 1.3em;
 
 	img {
 		height: 1.5em;
-		margin-left: 1em;
 	}
 
 	li {
 		display: inline;
-		margin: 1rem;
-    
-    ul{
-      display: none;
-    }
+		margin: 0.5em;
+
 	}
 
 
@@ -45,7 +40,7 @@ nav {
 		padding: 0.5em;
 		text-align: center;
     font-weight: bold;
-    font-size: large;
+    font-size: 1em;
 
 		&:hover{
 			color: $_cream-hover-color;
@@ -60,7 +55,6 @@ nav {
 		img{
 			width: 1em;
 			height: 1em;
-			margin-right: 0.2em;
 		}
 	}
 

@@ -12,297 +12,226 @@
 </head>
 <body>
   <header>
-    <nav>
-      <img src="/public/images/logo/logo.png" alt="">
-      <div class="menu">
-        <ul>
-          <li>
-            <select name="Home" id="home">
-              <option value=""><a href="#">Home</a></option>
-            </select>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Pages</a>
-            <ul class="drop-menu">
-              <li><a href="">page 1</a></li>
-              <li><a href="">page 2</a></li>
-              <li><a href="">page 3</a></li>
-            </ul>
-          </li>
-          <li>
-            <select name="Shop" id="shops">
-              <option value=""><a href="#">Shop</a></option>
-            </select>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <div class="reservation">
-        <div class="telephone">
-          <img src="/public/images/icons/telephone.png" alt="">
-          <a href="tel:+">+012(345)6789</a>
+    <div class="container">
+      <nav>
+        <img src="/public/images/logo/logo.png" alt="">
+        <div class="menu">
+          <ul>
+            <li>
+              <select name="Home" id="home">
+                <option value=""><a href="#">Home</a></option>
+              </select>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <select name="Page" id="pages">
+                <option value=""><a href="">Pages</a></option>
+              </select>
+            </li>
+            <li>
+              <select name="Shop" id="shops">
+                <option value=""><a href="#">Shop</a></option>
+              </select>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
         </div>
-        <div class="Book">
-          <button class="btn-primary-tranparent">book a table ➔</button>
+        <div class="reservation">
+          <div class="telephone">
+            <img src="/public/images/icons/telephone.png" alt="">
+            <a href="tel:+">+012(345)6789</a>
+          </div>
+          <div class="Book">
+            <button class="btn-primary" id="btn-book">book a table ➔</button>
+          </div>
         </div>
-      </div>
-    </nav>
-    <div class="body-header">
-      <div class="title">
-        <div>
-          <h1>BEST QUALITITY FOODS</h1>
-          <img src="/public/images/slider/img_bg2.png" alt="">
+      </nav>
+      <div class="body-header">
+        <div class="title">
+          <div>
+            <h1>BEST QUALITITY FOODS</h1>
+            <img src="/public/images/slider/img_bg2.png" alt="">
+          </div>
+          <button class="btn-primary-tranparent"> explore our menu ➔</button>
         </div>
-        <button class="btn-primary-tranparent"> explore our menu ➔</button>
-      </div>
-      <div class="play">
-        <div>
-          <p>▶</p>
+        <div class="play">
+          <div>
+            <p>▶</p>
+          </div>
         </div>
       </div>
     </div>
   </header>
 
   <main>
+
     <section class="category">
-      <h2>category</h2>
-      <div class="section-header-title">
-        <h3>CHOOSE YOUR BEST CATEGORY</h3>
-        <p>best foods for you & familly</p>
-      </div>
-      <div>
-        <article>
-          <img src="./public/images/icons/001-cheeseburger.png" alt="Cheeseburger">
-          <p>Cheeseburger</p>
-          <P>➔</P>
-        </article>
-        <article>
-          <img src="./public/images/icons/002-pizza.png" alt="Pizza">
-          <p>Pizza Slice</p>
-          <P>➔</P>
-        </article>
-        <article>
-          <img src="./public/images/icons/003-coffee.png" alt="coffee">
-          <p>Coffee-Cup</p>
-          <p>➔</p>
-        </article>
-        <article>
-          <img src="./public/images/icons/004-chicken-leg.png" alt="chicken">
-          <p>Chicken-Leg</p>
-          <p>➔</p>
-        </article>
-        <article>
-          <img src="./public/images/icons/005-cocktail.png" alt="energy">
-          <p>Energy Drink</p>
-          <p>➔</p>
-        </article>
-        <article>
-          <img src="./public/images/icons/006-marin.png" alt="shrimp">
-          <p>Shrimp</p>
-          <p>➔</p>
-        </article>
+      <div class="container">
+        <h2>category</h2>
+        <div class="section-header-title">
+          <h3>CHOOSE YOUR BEST CATEGORY</h3>
+          <p>best foods for you & familly</p>
+        </div>
+        <div>
+          <article>
+            <img src="./public/images/icons/001-cheeseburger.png" alt="Cheeseburger">
+            <p>Cheeseburger</p>
+            <P>➔</P>
+          </article>
+          <article>
+            <img src="./public/images/icons/002-pizza.png" alt="Pizza">
+            <p>Pizza Slice</p>
+            <P>➔</P>
+          </article>
+          <article>
+            <img src="./public/images/icons/003-coffee.png" alt="coffee">
+            <p>Coffee-Cup</p>
+            <p>➔</p>
+          </article>
+          <article>
+            <img src="./public/images/icons/004-chicken-leg.png" alt="chicken">
+            <p>Chicken-Leg</p>
+            <p>➔</p>
+          </article>
+          <article>
+            <img src="./public/images/icons/005-cocktail.png" alt="energy">
+            <p>Energy Drink</p>
+            <p>➔</p>
+          </article>
+          <article>
+            <img src="./public/images/icons/006-marin.png" alt="shrimp">
+            <p>Shrimp</p>
+            <p>➔</p>
+          </article>
+        </div>
       </div>
     </section>
 
     <section class="about-us">
-      <h2>about us</h2>
-      <div>
+      <div class="container">
+        <h2>about us</h2>
+        <div>
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+        </div>
+        <div class="section-header-title">
+          <h3>why choose us</h3>
+          <p>best foods for your family</p>
+        </div>
         <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-      </div>
-      <div class="section-header-title">
-        <h3>why choose us</h3>
-        <p>best foods for your family</p>
-      </div>
-      <img src="" alt="">
-      <div class="presentation">
-        <p>Sed ut perspiciatis une omnis iste natus error sit voluptatemaccusatium doloremque laudantium totam apeam eaque ipsa quae abillo
-          invtore vertittis et quasi architecto beatae vitae dicta sunt explucabo. Nemo enim ipsma voluptatem quiluptas
-        </p>
-        <div >
-          <button class="btn-primary">DISCOVER MORE ➔</button>
+        <div class="presentation">
+          <p>Sed ut perspiciatis une omnis iste natus error sit voluptatemaccusatium doloremque laudantium totam apeam eaque ipsa quae abillo
+            invtore vertittis et quasi architecto beatae vitae dicta sunt explucabo. Nemo enim ipsma voluptatem quiluptas
+          </p>
+          <div >
+            <button class="btn-primary">DISCOVER MORE ➔</button>
+          </div>
         </div>
       </div>
+
     </section>
 
     <section class="our-menu">
-      <div class="background-menu">
-        <h2>our menu</h2>
-        <div class="section-header-title">
-          <h3>try our special offer</h3>
-          <p>best foods for you & familly</p>
-        </div>
-        <div><img src="" alt=""></div>
-        <div><img src="" alt=""></div>
-      </div>
-      <div>
-        <div>
-          <div>
-            <h4>Raw Scallops From Erquy</h4>
-            <p>Candis Jerusalem artichokes, truffe</p>
+      <div class="container">
+        <div class="background-menu">
+          <h2>our menu</h2>
+          <div class="section-header-title">
+            <h3>try our special offer</h3>
+            <p>best foods for you & familly</p>
           </div>
-          <div class="price">
-            <p>$89</p>
-          </div>
+          <div><img src="" alt=""></div>
+          <div><img src="" alt=""></div>
         </div>
         <div>
           <div>
-            <h4>Celeriac and Truffle Ravioli</h4>
-            <p>Roasted langoustine, consommé</p>
+            <div>
+              <h4>Raw Scallops From Erquy</h4>
+              <p>Candis Jerusalem artichokes, truffe</p>
+            </div>
+            <div class="price">
+              <p>$89</p>
+            </div>
           </div>
-          <div class="price">
-            <p>$89</p>
-          </div>
-        </div>
-        <div>
           <div>
-            <h4>Cod Filet Cooked on One Side</h4>
-            <p>Chorizo, chickpea espuma, pequillos</p>
+            <div>
+              <h4>Celeriac and Truffle Ravioli</h4>
+              <p>Roasted langoustine, consommé</p>
+            </div>
+            <div class="price">
+              <p>$89</p>
+            </div>
           </div>
-          <div class="price">
-            <p>$89</p>
-          </div>
-        </div>
-        <div>
           <div>
-            <h4>Sea Bass Ceviche</h4>
-            <p>Avocado, butternut, lime</p>
+            <div>
+              <h4>Cod Filet Cooked on One Side</h4>
+              <p>Chorizo, chickpea espuma, pequillos</p>
+            </div>
+            <div class="price">
+              <p>$89</p>
+            </div>
           </div>
-          <div class="price">
-            <p>$89</p>
-          </div>
-        </div>
-        <div>
           <div>
-            <h4>Corrèze Pan-seared Veal Liver</h4>
-            <p>Olive oil mashed potato, onion jus</p>
+            <div>
+              <h4>Sea Bass Ceviche</h4>
+              <p>Avocado, butternut, lime</p>
+            </div>
+            <div class="price">
+              <p>$89</p>
+            </div>
           </div>
-          <div class="price">
-            <p>$89</p>
-          </div>
-        </div>
-        <div>
           <div>
-            <h4>Grilled Veal Filet Mignon</h4>
-            <p>Pumpkin, endives with hazelnuts</p>
+            <div>
+              <h4>Corrèze Pan-seared Veal Liver</h4>
+              <p>Olive oil mashed potato, onion jus</p>
+            </div>
+            <div class="price">
+              <p>$89</p>
+            </div>
           </div>
-          <div class="price">
-            <p>$89</p>
-          </div>
-        </div>
-        <div>
           <div>
-            <h4>Tender Octopus and Fennel</h4>
-            <p>Citrus, wild rocket condiment</p>
+            <div>
+              <h4>Grilled Veal Filet Mignon</h4>
+              <p>Pumpkin, endives with hazelnuts</p>
+            </div>
+            <div class="price">
+              <p>$89</p>
+            </div>
           </div>
-          <div class="price">
-            <p>$89</p>
-          </div>
-        </div>
-        <div>
           <div>
-            <h4>Viennese Veal Cutlet</h4>
-            <p>Ricotta ans spinach gnocchi, Caccio de pepe</p>
+            <div>
+              <h4>Tender Octopus and Fennel</h4>
+              <p>Citrus, wild rocket condiment</p>
+            </div>
+            <div class="price">
+              <p>$89</p>
+            </div>
           </div>
-          <div class="price">
-            <p>$89</p>
+          <div>
+            <div>
+              <h4>Viennese Veal Cutlet</h4>
+              <p>Ricotta ans spinach gnocchi, Caccio de pepe</p>
+            </div>
+            <div class="price">
+              <p>$89</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section class="gallery">
-      <h2>gallery</h2>
-      <div class="section-header-title">
-        <h3>restaurants photo gallery</h3>
-        <p>best foods for you & family</p>
-      </div>
-      <div class="grid-gallery">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-      </div>
-      <div>
-        <button class="btn-primary">view more photo ➔</button>
-      </div>
-    </section>
-
-    <section class="our-chefs">
-      <h2>our chefs</h2>
-      <div class="section-header-title">
-        <h3>meet professional chefs</h3>
-        <p>best foods for you & family</p>
-      </div>
-      <div class="chefs-gallery">
-        <img src="./public/images/team/img1team.jpg" alt="1team">
-        <img src="./public/images/team/img2team.jpg" alt="2team">
-        <img src="./public/images/team/img3team.jpg" alt="3team">
-        <img src="./public/images/team/img4team.jpg" alt="4team">
-      </div>
-    </section>
-
-    <section class="our-blog">
-      <h2>our blog</h2>
-      <div class="section-header-title">
-        <h3>latest news & blog</h3>
-        <p>Best foods for you & family</p>
-      </div>
-      <div class="grid-blog">
-        <article>
-          <div class="art-header">
-            <img src="" alt="">
-          </div>
-          <div class="art-body">
-            <img src="" alt="">
-            <p>by williamson</p>
-            <img src="" alt="">
-            <p>25 aug 2021</p>
-            <h4>How To Run A UX Audit For Major EdTech Platform Case Study</h4>
-          </div>
-          <div>
-            <button class="btn-primary">read more ➔</button>
-          </div>
-        </article>
-        <article>
-          <div class="art-header">
-            <img src="" alt="">
-          </div>
-          <div class="art-body">
-            <img src="" alt="">
-            <p>BY WILLIAMSON</p>
-            <img src="" alt="">
-            <p>25 aug 2021</p>
-            <h4>How To Run A UX Audit For Major EdTech Platform Case Study</h4>
-          </div>
-          <div >
-            <button class="btn-primary">read more ➔</button>
-          </div>
-        </article>
-        <article>
-          <div class="art-header">
-            <img src="" alt="">
-          </div>
-          <div class="art-body">
-            <img src="" alt="">
-            <p>BY WILLIAMSON</p>
-            <img src="" alt="">
-            <p>25 aug 2021</p>
-            <h4>How To Run A UX Audit For Major EdTech Platform Case Study</h4>
-          </div>
-          <div>
-            <button class="btn-primary">read more ➔</button>
-          </div>
-        </article>
-        <div class="blog-footer">
+      <div class="container">
+        <h2>gallery</h2>
+        <div class="section-header-title">
+          <h3>restaurants photo gallery</h3>
+          <p>best foods for you & family</p>
+        </div>
+        <div class="grid-gallery">
           <img src="" alt="">
           <img src="" alt="">
           <img src="" alt="">
@@ -310,79 +239,165 @@
           <img src="" alt="">
           <img src="" alt="">
         </div>
+        <div>
+          <button class="btn-primary">view more photo ➔</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-chefs">
+      <div class="container">
+        <h2>our chefs</h2>
+        <div class="section-header-title">
+          <h3>meet professional chefs</h3>
+          <p>best foods for you & family</p>
+        </div>
+        <div class="chefs-gallery">
+          <img src="./public/images/team/img1team.jpg" alt="1team">
+          <img src="./public/images/team/img2team.jpg" alt="2team">
+          <img src="./public/images/team/img3team.jpg" alt="3team">
+          <img src="./public/images/team/img4team.jpg" alt="4team">
+        </div>
+      </div>
+    </section>
+
+    <section class="our-blog">
+      <div class="container">
+        <h2>our blog</h2>
+        <div class="section-header-title">
+          <h3>latest news & blog</h3>
+          <p>Best foods for you & family</p>
+        </div>
+        <div class="grid-blog">
+          <article>
+            <div class="art-header">
+              <img src="" alt="">
+            </div>
+            <div class="art-body">
+              <img src="" alt="">
+              <p>by williamson</p>
+              <img src="" alt="">
+              <p>25 aug 2021</p>
+              <h4>How To Run A UX Audit For Major EdTech Platform Case Study</h4>
+            </div>
+            <div>
+              <button class="btn-primary">read more ➔</button>
+            </div>
+          </article>
+          <article>
+            <div class="art-header">
+              <img src="" alt="">
+            </div>
+            <div class="art-body">
+              <img src="" alt="">
+              <p>BY WILLIAMSON</p>
+              <img src="" alt="">
+              <p>25 aug 2021</p>
+              <h4>How To Run A UX Audit For Major EdTech Platform Case Study</h4>
+            </div>
+            <div >
+              <button class="btn-primary">read more ➔</button>
+            </div>
+          </article>
+          <article>
+            <div class="art-header">
+              <img src="" alt="">
+            </div>
+            <div class="art-body">
+              <img src="" alt="">
+              <p>BY WILLIAMSON</p>
+              <img src="" alt="">
+              <p>25 aug 2021</p>
+              <h4>How To Run A UX Audit For Major EdTech Platform Case Study</h4>
+            </div>
+            <div>
+              <button class="btn-primary">read more ➔</button>
+            </div>
+          </article>
+          <div class="blog-footer">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div><img src="" alt=""></div>
-    <div class="footer-body">
-      <div>
-        <h3>About</h3>
-        <ul>
-          <li>Home</li>
-          <li>Our Story</li>
-          <li>The Setting</li>
-          <li>The Suites</li>
-          <li>Food Lists</li>
-        </ul>
+    <div class="container">
+      <div><img src="" alt=""></div>
+      <div class="footer-body">
+        <div>
+          <h3>About</h3>
+          <ul>
+            <li>Home</li>
+            <li>Our Story</li>
+            <li>The Setting</li>
+            <li>The Suites</li>
+            <li>Food Lists</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Facilities</h3>
+          <ul>
+            <li>The Fontus Spa</li>
+            <li>Experiences</li>
+            <li>Private Function</li>
+            <li>Gallery, Events</li>
+            <li>Special Offers</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Newsletters</h3>
+          <ul>
+            <li>Dolor sit amet consectetur adipsiscing elit sed do
+              eiusmod tempor incididunt labore et dolore
+            </li>
+            <li>
+              <form action="" method="post">
+                <input type="email" name="" id="" placeholder="Enter Email Address">
+                <button type="submit">➔</button>
+              </form>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>
+              <img src="" alt="">
+              <p>56 Main Street, D-Block, 2nd Floor, Melbourne, Australia</p>
+            </li>
+            <li>
+              <img src="" alt="">
+              <p>support@gmail.com</p>
+            </li>
+            <li>
+              <img src="" alt="">
+              <p>+012(345)67 899</p>
+            </li>
+            <li>
+              <img src="" alt="">
+              <p>08 am-06 pm</p>
+            </li>
+        </div>
       </div>
-      <div>
-        <h3>Facilities</h3>
-        <ul>
-          <li>The Fontus Spa</li>
-          <li>Experiences</li>
-          <li>Private Function</li>
-          <li>Gallery, Events</li>
-          <li>Special Offers</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Newsletters</h3>
-        <ul>
-          <li>Dolor sit amet consectetur adipsiscing elit sed do
-            eiusmod tempor incididunt labore et dolore
-          </li>
-          <li>
-            <form action="" method="post">
-              <input type="email" name="" id="" placeholder="Enter Email Address">
-              <button type="submit">➔</button>
-            </form>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3>Contact</h3>
-        <ul>
-          <li>
-            <img src="" alt="">
-            <p>56 Main Street, D-Block, 2nd Floor, Melbourne, Australia</p>
-          </li>
-          <li>
-            <img src="" alt="">
-            <p>support@gmail.com</p>
-          </li>
-          <li>
-            <img src="" alt="">
-            <p>+012(345)67 899</p>
-          </li>
-          <li>
-            <img src="" alt="">
-            <p>08 am-06 pm</p>
-          </li>
-      </div>
-    </div>
-    <div class="footer-footer">
-      <div class="copyright">
-        <p>Copyright 2021 The kababi-Restaurant HTML Template. Designed by<a href="">Themesflat</a></p>
-      </div>
-      <div class="sociaux">
+      <div class="footer-footer">
+        <div class="copyright">
+          <p>Copyright 2021 The kababi-Restaurant HTML Template. Designed by<a href="">Themesflat</a></p>
+        </div>
+        <div class="sociaux">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+        </div>
         <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
       </div>
-      <img src="" alt="">
     </div>
   </footer>
 </body>
