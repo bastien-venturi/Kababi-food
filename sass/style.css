@@ -9,7 +9,7 @@ header {
 
 header {
   background-image: url("/public/images/slider/img_bg_slider_home01.jpg");
-  max-width: 100%;
+  background-repeat: no-repeat;
 }
 
 .category, footer, .our-chefs {
@@ -62,6 +62,52 @@ footer {
   font-family: "forum", cursive;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+}
+header .body-header {
+  display: flex;
+  justify-content: space-around;
+}
+header .body-header .title {
+  display: flex;
+  flex-direction: column;
+}
+header .body-header .title img {
+  position: relative;
+  left: 20px;
+  width: 8em;
+  height: 8em;
+}
+header .body-header .play {
+  margin: auto 0;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+header .body-header .play div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4em;
+  height: 4em;
+  color: #b08543;
+  background-color: white;
+  border-radius: 50%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  max-width: 100%;
+}
+
 h2 {
   transform: translatex(0.3125rem) translatey(2.8125rem);
   font-size: 12.5rem;
@@ -90,8 +136,9 @@ h2 {
 
 /* Article cat */
 main .category .article-cat, main .our-chefs .article-cat, main footer .article-cat {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
   gap: 25px;
   background-repeat: repeat;
   text-align: center;
@@ -120,6 +167,7 @@ main .category .article-cat, main .our-chefs .article-cat, main footer .article-
 
 nav {
   background: transparent;
+  position: relative;
   padding-top: 0.5em;
   width: 100%;
   height: 2em;
