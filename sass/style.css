@@ -148,8 +148,8 @@ h2 {
 }
 
 .article-cat {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
   gap: 25px;
   text-align: center;
@@ -223,14 +223,4 @@ nav .reservation img {
   width: 1em;
   height: 1em;
   margin-right: 0.2em;
-}
-
-.viande {
-  bottom: 0;
-  left: 0;
-}
-
-.p {
-  top: 0;
-  right: 0;
 }/*# sourceMappingURL=style.css.map */

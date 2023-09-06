@@ -1,7 +1,7 @@
 .article-cat
 {
-    display:grid;
-    grid-template-columns: 1fr;
+    display:flex;
+    justify-content:center;
     margin: 0 auto;
     gap: 25px;
     text-align:center;
