@@ -1,0 +1,47 @@
+@import '../abstract/variables';
+
+header {
+  display: flex;
+  flex-direction: column;
+  .body-header{
+    display: flex;
+    justify-content: space-around;
+
+    .title{
+      display: flex;
+      flex-direction: column;
+
+      img{
+        position: relative;
+        left: 20px;
+        width: 8em;
+        height: 8em;
+      }
+
+    }
+
+    .play{
+      margin: auto 0;
+      padding: 2em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border: 1px solid gray;
+      border-radius: 50%;
+
+      div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4em;
+        height: 4em;
+        color: $_cream-hover-color;
+        background-color: white;
+        border-radius: 50%;
+
+
+      }
+    }
+  }
+}
