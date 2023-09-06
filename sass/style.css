@@ -236,4 +236,31 @@ nav .reservation {
 nav .reservation img {
   width: 1em;
   height: 1em;
+}
+
+h2, .section-header-title {
+  z-index: 1;
+}
+
+.meatbread {
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-table {
+  position: absolute;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 20px;
+}
+
+.dish {
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
