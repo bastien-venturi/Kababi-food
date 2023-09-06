@@ -88,13 +88,6 @@ h2 {
   text-transform: capitalize;
 }
 
-/* Image */
-.article-cat article img {
-  height: 30px;
-  width: 30px;
-  transform: translatey(10px);
-}
-
 /* Article cat */
 main .category .article-cat, main .our-chefs .article-cat, main footer .article-cat {
   display: flex;
@@ -102,12 +95,27 @@ main .category .article-cat, main .our-chefs .article-cat, main footer .article-
   gap: 25px;
   background-repeat: repeat;
   text-align: center;
-  line-height: 33.3px;
+  line-height: 30px;
 }
 
 /* Article */
 .category .article-cat article, .our-chefs .article-cat article, footer .article-cat article {
   background-color: #fff;
+  width: 140px;
+  height: 140px;
+}
+
+/* Paragraph */
+.article-cat article p {
+  transform: translatex(0px) translatey(25px);
+}
+
+/* Image */
+.article-cat article img {
+  display: inline-block;
+  transform: translatex(0px) translatey(25px);
+  height: 30px;
+  width: 30px;
 }
 
 nav {
