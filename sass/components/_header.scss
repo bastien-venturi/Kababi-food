@@ -3,20 +3,35 @@
 header {
   display: flex;
   flex-direction: column;
+  font-weight: bold;
   .body-header{
     display: flex;
     justify-content: space-around;
+    margin: 8em 0;
 
     .title{
       display: flex;
       flex-direction: column;
 
+      div{
+        display: grid;
+        grid-template-columns: repeat(2, 5em);
+        margin: 2em 0;
+
+        h1{
+          font-size: 5em;
+        }
+      }
+      
       img{
-        position: relative;
-        left: 20px;
         width: 8em;
         height: 8em;
+        border-radius: 50%;
+        position: relative;
+        left: 6em;
+        bottom: 4em;
       }
+
 
     }
 
@@ -39,8 +54,6 @@ header {
         color: $_cream-hover-color;
         background-color: white;
         border-radius: 50%;
-
-
       }
     }
   }
