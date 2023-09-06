@@ -5,10 +5,12 @@ nav {
   position: relative;
 	padding-top: 0.5em;
 	width: 100%;
-	height: 2em;
+	height: 3em;
 	display: grid;
+  align-items: center;
 	grid-template-columns: 0.8fr 2fr 1fr;
 	justify-content: space-evenly;
+  font-size: x-large;
 
 	img {
 		height: 1.5em;
@@ -18,7 +20,13 @@ nav {
 	li {
 		display: inline;
 		margin: 1rem;
+    
+    ul{
+      display: none;
+    }
 	}
+
+
 
 	a {
 		text-decoration: none;
@@ -36,6 +44,8 @@ nav {
 		border: none;
 		padding: 0.5em;
 		text-align: center;
+    font-weight: bold;
+    font-size: large;
 
 		&:hover{
 			color: $_cream-hover-color;

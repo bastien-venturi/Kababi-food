@@ -45,10 +45,11 @@ footer {
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: large;
   padding: 1em 1.5em;
 }
 .btn-primary:hover, .btn-primary-tranparent:hover {
-  background-color: #b08543;
+  background-color: #e9b05b;
   border: none;
 }
 
@@ -65,20 +66,32 @@ footer {
 header {
   display: flex;
   flex-direction: column;
+  font-weight: bold;
 }
 header .body-header {
   display: flex;
   justify-content: space-around;
+  margin: 8em 0;
 }
 header .body-header .title {
   display: flex;
   flex-direction: column;
 }
+header .body-header .title div {
+  display: grid;
+  grid-template-columns: repeat(2, 5em);
+  margin: 2em 0;
+}
+header .body-header .title div h1 {
+  font-size: 5em;
+}
 header .body-header .title img {
-  position: relative;
-  left: 20px;
   width: 8em;
   height: 8em;
+  border-radius: 50%;
+  position: relative;
+  left: 6em;
+  bottom: 4em;
 }
 header .body-header .play {
   margin: auto 0;
@@ -96,7 +109,7 @@ header .body-header .play div {
   justify-content: center;
   width: 4em;
   height: 4em;
-  color: #b08543;
+  color: #e9b05b;
   background-color: white;
   border-radius: 50%;
 }
@@ -163,10 +176,12 @@ nav {
   position: relative;
   padding-top: 0.5em;
   width: 100%;
-  height: 2em;
+  height: 3em;
   display: grid;
+  align-items: center;
   grid-template-columns: 0.8fr 2fr 1fr;
   justify-content: space-evenly;
+  font-size: x-large;
 }
 nav img {
   height: 1.5em;
@@ -176,12 +191,15 @@ nav li {
   display: inline;
   margin: 1rem;
 }
+nav li ul {
+  display: none;
+}
 nav a {
   text-decoration: none;
   color: #fff;
 }
 nav a:hover {
-  color: #b08543;
+  color: #e9b05b;
 }
 nav select {
   background: transparent;
@@ -189,9 +207,11 @@ nav select {
   border: none;
   padding: 0.5em;
   text-align: center;
+  font-weight: bold;
+  font-size: large;
 }
 nav select:hover {
-  color: #b08543;
+  color: #e9b05b;
 }
 nav .reservation {
   display: grid;
