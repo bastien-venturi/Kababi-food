@@ -236,4 +236,9 @@ nav .reservation {
 nav .reservation img {
   width: 1em;
   height: 1em;
+}
+
+.about-gallery {
+  display: grid;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */
