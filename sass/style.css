@@ -88,9 +88,26 @@ h2 {
   text-transform: capitalize;
 }
 
-main .category div, main .our-chefs div, main footer div {
+/* Image */
+.article-cat article img {
+  height: 30px;
+  width: 30px;
+  transform: translatey(10px);
+}
+
+/* Article cat */
+main .category .article-cat, main .our-chefs .article-cat, main footer .article-cat {
   display: flex;
   justify-content: center;
+  gap: 25px;
+  background-repeat: repeat;
+  text-align: center;
+  line-height: 33.3px;
+}
+
+/* Article */
+.category .article-cat article, .our-chefs .article-cat article, footer .article-cat article {
+  background-color: #fff;
 }
 
 nav {
