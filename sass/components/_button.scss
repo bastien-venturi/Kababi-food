@@ -1,3 +1,5 @@
+@import '../abstract/variables';
+
 .btn-primary {
 
 	background-color: $_white;
@@ -12,6 +14,7 @@
 	font-weight: bold;
   font-size: large;
 	padding: 1em 1.5em;
+  font-family: $_font-button;
 
 	&:hover{
 		background-color: $_cream-hover-color;
