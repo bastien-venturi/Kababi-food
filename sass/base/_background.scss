@@ -3,14 +3,14 @@
 header {
   background-position: right;
   max-width: 100%;
-  background: linear-gradient(-75deg, transparent, black), url("./public/images/slider/img_bg_slider_home01.jpg");
+  background: linear-gradient(-75deg, transparent, black), url("../../public/images/slider/img_bg_slider_home01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .category{
-  background-image: url('./public/images/banner/imgbgcategory.jpg');
+  background-image: url('../../public/images/banner/imgbgcategory.jpg');
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -25,10 +25,10 @@ header {
 
 .our-chefs{
   @extend .category;
-  background-image: url('./public/images/our-chefs/imgbg-ourchefs.jpg');
+  background-image: url('../../public/images/our-chefs/imgbg-ourchefs.jpg');
 }
 
 footer{
   @extend .category;
-  background-image: url('./public/images/footer/img-ng-footer.jpg');
+  background-image: url('../../public/images/footer/img-ng-footer.jpg');
 }
