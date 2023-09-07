@@ -1,0 +1,19 @@
+@import '../abstract/variables';
+
+footer{
+	color: $_white;
+
+	.footer-header{
+		text-align: center;
+		padding-top: 4em;
+	}
+
+	.footer-body {
+		margin: 0 auto;
+
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		
+	}
+}

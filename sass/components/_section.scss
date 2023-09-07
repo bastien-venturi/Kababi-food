@@ -3,8 +3,9 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
   max-width: 100%;
+
+  .category{
+    height: 50em;
+  }
 }
 
-.category{
-  height: 60em !important;
-}
