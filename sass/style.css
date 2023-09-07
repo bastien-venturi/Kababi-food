@@ -9,8 +9,12 @@ header {
 }
 
 .container {
-  max-width: 100%;
+  width: 80%;
   margin: 0 auto;
+}
+
+ul {
+  list-style: none;
 }
 
 header {
@@ -324,4 +328,14 @@ h2, .section-header-title {
 
 footer {
   color: #fff;
+}
+footer .footer-header {
+  text-align: center;
+  padding-top: 4em;
+}
+footer .footer-body {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
