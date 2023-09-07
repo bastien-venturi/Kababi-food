@@ -329,6 +329,15 @@ h2, .section-header-title
   display: flex;
 }
 
+.grid-gallery {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+}
+.grid-gallery:nth-child(even) {
+  grid-template-columns: repeat(2, 1fr) 2fr;
+}
+
 .our-chefs .section-header-title {
   color: #fff;
 }
@@ -343,8 +352,8 @@ h2, .section-header-title
   justify-items: center;
 }
 .chefs-gallery .img-chefs {
-  height: 20.375rem;
-  width: 14.5rem;
+  margin: 0;
+  padding: 0;
 }
 
 .fiche {
