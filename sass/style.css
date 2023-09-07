@@ -34,6 +34,11 @@ footer {
   background-image: url("/public/images/footer/img-ng-footer.jpg");
 }
 
+* {
+  font-family: url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Roboto&family=Rosarivo&family=Rubik+Iso&display=swap");
+  font-family: "forum", cursive;
+}
+
 .btn-primary, .btn-primary-tranparent {
   background-color: #fff;
   border: 1px solid lightgray;
@@ -52,44 +57,9 @@ footer {
   border: none;
 }
 
-* {
-  font-family: url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Roboto&family=Rosarivo&family=Rubik+Iso&display=swap");
-  font-family: "forum", cursive;
-}
-
-h1 {
-  color: white;
-}
-
-h2 {
-  color: #F5EEE3;
-  text-transform: uppercase;
-  font-size: 100px;
-}
-
-.category, .our-chefs, footer, .about-us, .our-menu, .gallery, .our-blog {
-  position: relative;
-}
-
-h2 {
-  z-index: 1;
-}
-
-.section-header-title {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  text-align: center;
-}
-
-.our-chefs {
-  color: white;
-
-}
-button {
-  font-family: "roboto", serif;
+.btn-primary-tranparent {
+  background-color: transparent;
+  color: #fff;
 }
 
 nav {
@@ -135,4 +105,35 @@ nav .reservation img {
   width: 1em;
   height: 1em;
   margin-right: 0.2em;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: #F5EEE3;
+  text-transform: uppercase;
+  font-size: 100px;
+}
+
+.category, .our-chefs, footer, .about-us, .our-menu, .gallery, .our-blog {
+  position: relative;
+}
+
+h2 {
+  z-index: 1;
+}
+
+.section-header-title {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+.our-chefs {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
