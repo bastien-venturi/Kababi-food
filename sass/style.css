@@ -156,7 +156,6 @@ h2 {
 .section-header-title {
   text-align: center;
   transform: translatex(15px) translatey(-130px);
-  font-size: 30px;
   line-height: 50px;
   font-weight: 300;
   min-height: 132px;
@@ -175,25 +174,25 @@ h2 {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  gap: 25px;
+  gap: 1.5625rem;
   text-align: center;
-  line-height: 30px;
+  line-height: 1.875rem;
   transform: scale(1.2);
 }
 .article-cat article {
   background-color: #fff;
-  width: 140px;
-  height: 180px;
+  width: 8.75rem;
+  height: 11.25rem;
   text-align: center;
 }
 .article-cat article img {
   display: inline-block;
-  transform: translatey(40px);
-  height: 30px;
-  width: 30px;
+  transform: translatey(2.5rem);
+  height: 1.875rem;
+  width: 1.875rem;
 }
 .article-cat article p {
-  transform: translatey(40px);
+  transform: translatey(2.5rem);
 }
 
 nav {
@@ -330,14 +329,40 @@ h2, .section-header-title
   display: flex;
 }
 
-/*
-h2
-{
-    color:$_our-chefs-color;
+.our-chefs .section-header-title {
+  color: #fff;
 }
-*/
+.our-chefs h2 {
+  color: rgba(245, 238, 227, 0.01);
+}
+
 .chefs-gallery {
-  width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.chefs-gallery .img-chefs {
+  height: 20.375rem;
+  width: 14.5rem;
+}
+
+/* Grid blog */
+.grid-blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.fiche {
+  background-color: #F5EEE3;
+}
+
+.blog-footer {
+  display: flex;
+}
+
+.art body {
+  display: flex;
 }
 
 footer {

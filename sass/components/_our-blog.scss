@@ -1,0 +1,21 @@
+/* Grid blog */
+.grid-blog
+{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+
+.fiche
+{
+    background-color: $_dark-cream-color;
+}
+
+.blog-footer
+{
+    display:flex;
+}
+
+.art body
+{
+    display:flex;
+}
