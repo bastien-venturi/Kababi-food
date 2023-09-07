@@ -1,0 +1,11 @@
+@import '../abstract/variables';
+
+.grid-gallery {
+	margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+
+	&:nth-child(even){
+		grid-template-columns: repeat(2, 1fr) 2fr;
+	}
+}

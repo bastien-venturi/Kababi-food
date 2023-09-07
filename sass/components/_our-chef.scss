@@ -17,10 +17,9 @@
     grid-template-columns:repeat(4, 1fr); 
     align-items: center;
     justify-items: center;
-    
     .img-chefs
     {
-        height:20.375rem;
-        width:14.5rem;
+        margin: 0;
+        padding: 0;
     }
 }
