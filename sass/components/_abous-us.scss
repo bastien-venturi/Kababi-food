@@ -1,0 +1,18 @@
+.about-gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 26em;
+  align-items: center;
+  justify-items: center;
+  
+}
+
+#about-gallery-position{
+  position: relative;
+  top: -5em;
+  
+  img{
+    border: 2em solid white;
+    border-radius: 50%;
+  }
+}

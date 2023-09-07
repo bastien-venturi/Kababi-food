@@ -1,8 +1,9 @@
+@import '../abstract/variables';
+
 .btn-primary {
 
 	background-color: $_white;
-
-	border: 1px solid lightgray;
+  border: 1px solid lightgrey;
 	border-radius: 3px;
 	color: #000;
 	text-align: center;
@@ -11,16 +12,31 @@
 	cursor: pointer;
 	text-transform: uppercase;
 	font-weight: bold;
+  font-size: large;
 	padding: 1em 1.5em;
+  font-family: $_font-button;
 
 	&:hover{
 		background-color: $_cream-hover-color;
-		border: none
+		border: none;
 	}
+
+
 }
 
 .btn-primary-tranparent{
 	@extend .btn-primary;
 	background-color: transparent;
+  border: 1px solid lightgray;
 	color: $_white;
+
+  &:hover {
+    border: 1px solid $_cream-hover-color;
+  }
+}
+
+#btn-book {
+  border: none;
+  background-color: $_cream-hover-color;
+  color: $_white;
 }

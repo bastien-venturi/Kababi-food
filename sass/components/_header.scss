@@ -1,0 +1,61 @@
+@import '../abstract/variables';
+
+header {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  
+  .body-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 15em 0;
+
+    .title{
+      display: flex;
+      flex-direction: column;
+
+      div{
+        display: grid;
+        grid-template-columns: repeat(2, 5em);
+        margin: 2em 0;
+
+        h1{
+          font-size: 8em;
+        }
+      }
+      
+      img{
+        width: 9em;
+        height: 9em;
+        border-radius: 50%;
+        position: relative;
+        left: 15em;
+        bottom: 4em;
+      }
+
+
+    }
+
+    .play{
+      margin: auto 0;
+      padding: 2em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border: 1px solid gray;
+      border-radius: 50%;
+
+      div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4em;
+        height: 4em;
+        color: $_cream-hover-color;
+        background-color: white;
+        border-radius: 50%;
+      }
+    }
+  }
+}
