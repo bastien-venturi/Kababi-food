@@ -3,14 +3,14 @@
 header {
   background-position: right;
   max-width: 100%;
-  background: linear-gradient(-75deg, transparent, black), url("/public/images/slider/img_bg_slider_home01.jpg");
+  background: linear-gradient(-75deg, transparent, black), url("./public/images/slider/img_bg_slider_home01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .category{
-  background-image: url('/public/images/banner/imgbgcategory.jpg');
+  background-image: url('./public/images/banner/imgbgcategory.jpg');
   background-position: center;
   background-size: cover;
   width: 100%;
