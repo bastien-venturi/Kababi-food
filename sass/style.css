@@ -14,9 +14,11 @@ header {
 
 header {
   background-position: right;
+  max-width: 100%;
   background: linear-gradient(-75deg, transparent, black), url("/public/images/slider/img_bg_slider_home01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .category, footer, .our-chefs {
@@ -43,11 +45,6 @@ footer {
   background-image: url("/public/images/footer/img-ng-footer.jpg");
 }
 
-* {
-  font-family: url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Roboto&family=Rosarivo&family=Rubik+Iso&display=swap");
-  font-family: "forum", cursive;
-}
-
 .btn-primary, .btn-primary-tranparent {
   background-color: #fff;
   border: 1px solid lightgrey;
@@ -59,12 +56,12 @@ footer {
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: large;
+  font-size: medium;
   padding: 1em 1.5em;
   font-family: "roboto", serif;
 }
 .btn-primary:hover, .btn-primary-tranparent:hover {
-  background-color: #e9b05b;
+  background-color: #bf914c;
   border: none;
 }
 
@@ -74,12 +71,12 @@ footer {
   color: #fff;
 }
 .btn-primary-tranparent:hover {
-  border: 1px solid #e9b05b;
+  border: 1px solid #bf914c;
 }
 
 #btn-book {
   border: none;
-  background-color: #e9b05b;
+  background-color: #bf914c;
   color: #fff;
 }
 
@@ -133,7 +130,7 @@ header .body-header .play div {
   justify-content: center;
   width: 4em;
   height: 4em;
-  color: #e9b05b;
+  color: #bf914c;
   background-color: white;
   border-radius: 50%;
 }
@@ -144,9 +141,8 @@ main {
   flex-wrap: wrap;
   max-width: 100%;
 }
-
-.category, .our-chefs, footer {
-  height: 60em !important;
+main .category, main .our-chefs, main footer {
+  height: 50em;
 }
 
 h2 {
@@ -223,7 +219,7 @@ nav a {
   color: #fff;
 }
 nav a:hover {
-  color: #e9b05b;
+  color: #bf914c;
 }
 nav select {
   background: transparent;
@@ -235,7 +231,7 @@ nav select {
   font-size: 1em;
 }
 nav select:hover {
-  color: #e9b05b;
+  color: #bf914c;
 }
 nav .reservation {
   display: grid;
@@ -247,21 +243,59 @@ nav .reservation img {
   height: 1em;
 }
 
-.about-gallery {
+.about-us .about-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 26em;
   align-items: center;
   justify-items: center;
 }
-
-#about-gallery-position {
+.about-us #about-gallery-position {
   position: relative;
   top: -5em;
 }
-#about-gallery-position img {
+.about-us #about-gallery-position img {
   border: 2em solid white;
   border-radius: 50%;
+}
+.about-us .about-header {
+  display: flex;
+  justify-content: center;
+  justify-self: baseline;
+  margin: 0 auto;
+}
+.about-us .about-header .about-logo {
+  position: relative;
+  left: 10em;
+  bottom: 7em;
+  justify-self: flex-end;
+}
+.about-us .about-body {
+  margin: 0 auto;
+  margin-bottom: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  justify-items: stretch;
+  gap: 5%;
+}
+.about-us .about-body .presentation {
+  text-align: end;
+}
+.about-us .about-body .about-quote {
+  font-size: 2em;
+  font-style: italic;
+  display: grid;
+  width: 70%;
+  grid-template-columns: 1fr;
+  justify-items: start;
+  align-items: center;
+  gap: 15%;
+}
+.about-us .about-body .about-quote blockquote {
+  font-weight: lighter;
+  width: 15em;
 }
 
 h2, .section-header-title {
