@@ -151,7 +151,6 @@ h2 {
   font-size: 12.5rem;
   color: #F5EEE3;
   text-transform: uppercase;
-  z-index: 1;
 }
 
 .section-header-title {
@@ -179,7 +178,7 @@ h2 {
   gap: 25px;
   text-align: center;
   line-height: 30px;
-  transform: translatey(-80px);
+  transform: scale(1.2);
 }
 .article-cat article {
   background-color: #fff;
@@ -299,18 +298,23 @@ nav .reservation img {
   width: 15em;
 }
 
-h2, .section-header-title {
-  z-index: 1;
+/*
+h2, .section-header-title
+{
+    z-index:1;
 }
 
-.meatbread {
-  z-index: 2;
-  display: flex;
-  justify-content: space-between;
+.meatbread
+{
+    z-index:2;
+    display:flex;
+    justify-content:space-between;
+
 }
 
+*/
 .menu-table {
-  position: absolute;
+  position: relative;
   z-index: 3;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -324,6 +328,16 @@ h2, .section-header-title {
   border: 2px solid black;
   border-radius: 5px;
   display: flex;
+}
+
+/*
+h2
+{
+    color:$_our-chefs-color;
+}
+*/
+.chefs-gallery {
+  width: 1300px;
 }
 
 footer {
