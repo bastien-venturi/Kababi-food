@@ -43,11 +43,11 @@ header {
 }
 
 .our-chefs {
-  background-image: url("/public/images/our-chefs/imgbg-ourchefs.jpg");
+  background-image: url("./public/images/our-chefs/imgbg-ourchefs.jpg");
 }
 
 footer {
-  background-image: url("/public/images/footer/img-ng-footer.jpg");
+  background-image: url("./public/images/footer/img-ng-footer.jpg");
 }
 
 .btn-primary, .btn-primary-tranparent {
