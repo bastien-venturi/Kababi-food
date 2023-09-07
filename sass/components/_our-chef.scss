@@ -1,13 +1,26 @@
-/*
-h2
+.our-chefs
 {
-    color:$_our-chefs-color;
+    .section-header-title
+    {
+        color: $_white;
+    }
+
+    h2
+    {
+        color: $_our-chefs-color;
+    }
 }
-*/
 
 .chefs-gallery
 {
-
-    width:1300px;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr); 
+    align-items: center;
+    justify-items: center;
+    
+    .img-chefs
+    {
+        height:20.375rem;
+        width:14.5rem;
+    }
 }
-   

@@ -3,26 +3,26 @@
     display:flex;
     justify-content:center;
     margin: 0 auto;
-    gap: 25px;
+    gap: 1.5625rem;
     text-align:center;
-    line-height:30px;
+    line-height:1.875rem;
     transform:scale(1.2);    
     article
     {
         background-color: $_white;
-        width:140px;
-        height:180px;
+        width:8.75rem;
+        height:11.25rem;
         text-align:center;
         img
         {
             display:inline-block;
-            transform:translatey(40px);
-            height:30px;
-            width:30px;
+            transform:translatey(2.5rem);
+            height:1.875rem;
+            width:1.875rem;
         }
         p
         {
-            transform: translatey(40px);
+            transform: translatey(2.5rem);
         }
     }
     
