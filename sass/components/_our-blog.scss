@@ -1,21 +1,19 @@
-/* Grid blog */
-.grid-blog
-{
-    display:grid;
-    grid-template-columns:repeat(3, 1fr);
-}
-
 .fiche
 {
     background-color: $_dark-cream-color;
 }
 
-.blog-footer
+.blog-footer 
 {
-    display:flex;
+    filter: grayscale(1);
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    justify-content:center;
 }
 
-.art body
+.grid-blog
 {
-    display:flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
 }
